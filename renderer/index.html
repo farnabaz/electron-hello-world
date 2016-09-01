@@ -6,5 +6,16 @@
   </head>
   <body>
     <h1>Hello World!</h1>
+    <pre id="tree">
+    </pre>
+    <script>
+      const os = require('os');
+      const fs = require('fs');
+      const path = require('path');
+      var desktopPath = path.join(os.homedir(), 'Desktop');
+      fs.readdir(desktopPath, function(err, files){
+        document.getElementById('tree').innerText = files.join("\n")
+      })
+    </script>
   </body>
 </html>
