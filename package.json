@@ -1,0 +1,22 @@
+{
+  "name": "electron-hello-world",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ENVIRONMENT=DEV ./node_modules/.bin/electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farnabaz/electron-hello-world.git"
+  },
+  "author": "farnabaz@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/farnabaz/electron-hello-world/issues"
+  },
+  "homepage": "https://github.com/farnabaz/electron-hello-world#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.8"
+  }
+}
